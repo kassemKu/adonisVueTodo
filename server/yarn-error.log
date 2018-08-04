@@ -1,0 +1,60 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add sqlite3
+
+PATH: 
+  /home/kassem/.asdf/bin:/home/kassem/.asdf/shims:/home/kassem/.asdf/bin:/home/kassem/.asdf/shims:/home/kassem/.kiex/bin:/home/kassem/.kiex/bin:/home/kassem/.local/share/umake/bin:/home/kassem/bin:/home/kassem/.local/bin:/home/kassem/.asdf/bin:/home/kassem/.asdf/shims:/home/kassem/.asdf/bin:/home/kassem/.asdf/shims:/home/kassem/.kiex/bin:/home/kassem/.kiex/bin:/home/kassem/.local/share/umake/bin:/home/kassem/bin:/home/kassem/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.3
+
+Platform: 
+  linux ia32
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com:443
+      at Object._errnoException (util.js:992:11)
+      at errnoException (dns.js:55:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+
+npm manifest: 
+  {
+    "name": "adonis-api-app",
+    "version": "4.1.0",
+    "adonis-version": "4.1.0",
+    "description": "Adonisjs boilerplate for API server with pre-configured JWT",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "node ace test"
+    },
+    "keywords": [
+      "adonisjs",
+      "adonis-app"
+    ],
+    "author": "",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+      "@adonisjs/ace": "^5.0.2",
+      "@adonisjs/auth": "^3.0.5",
+      "@adonisjs/bodyparser": "^2.0.3",
+      "@adonisjs/cors": "^1.0.6",
+      "@adonisjs/fold": "^4.0.8",
+      "@adonisjs/framework": "^5.0.7",
+      "@adonisjs/ignitor": "^2.0.6",
+      "@adonisjs/lucid": "^5.0.4"
+    },
+    "devDependencies": {},
+    "autoload": {
+      "App": "./app"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
