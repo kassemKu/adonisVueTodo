@@ -9,6 +9,7 @@ class UserController {
     const token = await auth.attempt(email, password)
     return token
   }
+  // LOGIN
 
   async register({ request })
   {
@@ -22,6 +23,8 @@ class UserController {
     // return user
     return this.login(...arguments)
   }
+  // REGISTER
+
 }
 
 module.exports = UserController
